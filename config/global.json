@@ -1,8 +1,8 @@
 {
-    "applicationName" : "TicketDemo",
-    "applicationId": "my7clww2hnrairocm6uwus69fg806z50vvmtaz7oughnfq94",
-    "applicationKey": "npn86d4vj3ttgl0qemc972v70wrs1oimye04w2x3sb4r0zl7",
+    "applicationName" : "ticket-app",
+    "applicationId": "glt2gtrz6sfbi8mhnwwa1c04ndejemjeat8hqna8azb7j4b6",
+    "applicationKey": "e0tp939yoitqzd2adbagasu5wwfpol5ub3hw4o549whubhjz",
     "global": {
-        "avVersion": "0.2.0"
+        "avVersion": "0.3.1"
     }
 }
