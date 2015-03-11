@@ -301,6 +301,7 @@ app.get('/tickets', function (req, res) {
         query.find().then(function (tickets) {
             tickets = tickets || [];
             tickets = _.map(tickets, transformTicket);
+            console.log(tickets);
             res.render('list', {
                 tickets: tickets,
                 token: token
