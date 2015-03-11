@@ -39,7 +39,7 @@
       <td class="table-title"><a href="/tickets/<%= ticket.id %>/threads" title="#<%= ticket.ticket_id
         %>"><%=
             ticket.title %></a></td>
-        <td class="table-thumb"><%= ticket.attachment %></td>
+        <td class="table-thumb"><%- ticket.attachment %></td>
       <td class="table-status"><%= ticket.status %></td>
       <td class="table-type"><%= ticket.type %></td>
       <td class="table-date" data-sort-value="<%= ticket.createdAtUnix %>"><span class="bstooltip" title="<%= ticket.createdAtLong %>"><%= ticket.createdAt %></span></td>
